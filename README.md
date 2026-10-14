@@ -21,7 +21,8 @@ Versitygw on FreeBSD.
 ## Version Tags
 | Tag | Description | Best For |
 | :--- | :--- | :--- |
-| `latest` | **Upstream Binary**. Built from official release. | Most users — recommended. |
+| `latest` / `pkg` | **Upstream Binary**. Built from official release. | Most users — recommended. |
+| `pkg-latest` | **FreeBSD Latest**. Rolling package updates. | Staying current. |
 
 ## Prerequisites
 Before deploying, ensure your host environment is ready. See the [Quick Start Guide](https://daemonless.io/guides/quick-start) for host setup instructions.
@@ -167,7 +168,7 @@ Access at: `http://localhost:7070`
 | `7070` | TCP | Web API |
 | `7071` | TCP | Web UI |
 
-**Architectures:** amd64
+**Architectures:** amd64, aarch64
 **User:** `bsd` (UID/GID via PUID/PGID, defaults to 1000:1000)
 **Base:** FreeBSD 15.1
 

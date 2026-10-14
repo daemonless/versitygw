@@ -8,8 +8,8 @@ ARG BASE_VERSION=15.1
 FROM ghcr.io/daemonless/base:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
-ARG PACKAGES="versitygw"
-ARG APP_VERSION="latest"
+ARG PKG_NAME="versitygw"
+ARG PACKAGES="${PKG_NAME}"
 
 LABEL org.opencontainers.image.title="Versitygw" \
       org.opencontainers.image.description="Versitygw on FreeBSD." \
@@ -21,7 +21,8 @@ LABEL org.opencontainers.image.title="Versitygw" \
       io.daemonless.category="Infrastructure" \
       io.daemonless.port="7070" \
       io.daemonless.arch="${FREEBSD_ARCH}" \
-      io.daemonless.packages="${PACKAGES}"
+      io.daemonless.pkg-source="pkg" \
+      io.daemonless.pkg-name="${PKG_NAME}" 
 
 # Install dependencies
 RUN pkg update && \
@@ -34,7 +35,7 @@ COPY root/ /
 
 # Set permissions
 RUN chmod +x /etc/services.d/versitygw/run /healthz && \
-    mkdir -p /app && pkg info -E ${PACKAGES} | cut -d \- -f 2 > /app/version && chmod -R a+rX /app 
+    mkdir -p /app && pkg query '%v' ${PKG_NAME} > /app/version && chmod -R a+rX /app
 
 ENV ROOT_ACCESS_KEY_ID="access" \
     ROOT_SECRET_ACCESS_KEY="secret"
