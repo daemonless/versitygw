@@ -1,0 +1,48 @@
+name: versitygw
+
+x-daemonless:
+  title: "Versitygw"
+  icon: ":material-apps:"  # https://pictogrammers.com/library/mdi/ (material-) or https://simpleicons.org/ (simple-)
+  category: "Utilities"
+  description: "Versitygw on FreeBSD."
+  upstream_url: "https://github.com/daemonless/versitygw"
+  web_url: "https://versitygw.com/"
+  freshports_url: "https://www.freshports.org/net-p2p/versitygw/"
+  user: "bsd"
+  mlock: false
+  community: "Discord:https://discord.gg/Kb9tkhecZT"
+
+  docs:
+    env:
+      PUID: "User ID for the application process"
+      PGID: "Group ID for the application process"
+      TZ: "Timezone for the container"
+      ROOT_ACCESS_KEY_ID: "Access key for the root filesystem"
+      ROOT_SECRET_ACCESS_KEY: "Secret access key for the root filesystem"
+    volumes:
+      /config: "Configuration directory"
+    ports:
+      7070: "Web API"
+      7071: "Web UI"
+
+services:
+  versitygw:
+    image: ghcr.io/daemonless/versitygw:latest
+    container_name: versitygw
+    # "always", not "unless-stopped": FreeBSD's podman rc.d only auto-starts
+    # containers with restart-policy=always at boot (needs podman_enable=YES).
+    restart: always
+
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - ROOT_ACCESS_KEY_ID=access
+      - ROOT_SECRET_ACCESS_KEY=secret
+      - TZ=UTC
+
+    volumes:
+      - /path/to/containers/versitygw:/config
+
+    ports:
+      - 7070:7070
+      - 7071:7071

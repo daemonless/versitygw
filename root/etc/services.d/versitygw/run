@@ -1,0 +1,20 @@
+#!/bin/sh
+# Versitygw s6 service
+
+export HOME=/config
+
+# Signal readiness once the healthcheck passes (FD 3, see notification-fd)
+s6-ready-when /healthz
+
+echo "[INFO] Starting versitygw..."
+
+cd /config
+exec /usr/local/bin/s6-setuidgid bsd \
+    /usr/local/bin/versitygw \
+	--access "${ROOT_ACCESS_KEY_ID}" \
+	--secret "${ROOT_SECRET_ACCESS_KEY}" \
+	--port 0.0.0.0:7070 \
+        --webui 0.0.0.0:7071 \
+        --cors-allow-origin \* \
+	posix /config
+
