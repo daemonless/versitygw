@@ -1,0 +1,1391 @@
+{
+  "generated": "2026-10-14T20:14:09Z",
+  "image": "versitygw",
+  "tags": {
+    "pkg-aarch64": {
+      "app_version": "1.7.0_1",
+      "arch": "aarch64",
+      "generated": "2026-10-14T20:13:06Z",
+      "packages": {
+        "dotnet": [],
+        "freebsd": [
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-audit-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-blocklist",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-bzip2-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-certctl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-clibs",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "CDDL-1.0"
+            ],
+            "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-fetch",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-kerberos-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libarchive",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libbsdstat",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libcasper",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libexecinfo",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libldns",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libmagic",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-locales",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-mtree",
+            "version": "15.1p2"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-ncurses-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-openssl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-openssl-lib",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pam-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pkg-bootstrap",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-rc",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-resolvconf",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-runtime",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-tcpd",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-ufs-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-utilities",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-xz-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "CDDL-1.0"
+            ],
+            "name": "FreeBSD-zfs-lib",
+            "version": "15.1p1"
+          },
+          {
+            "licenses": [
+              "Zlib"
+            ],
+            "name": "FreeBSD-zlib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "PD"
+            ],
+            "name": "FreeBSD-zoneinfo",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-zstd-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "MPL20"
+            ],
+            "name": "ca_root_nss",
+            "version": "3.130"
+          },
+          {
+            "licenses": [
+              "ISCL"
+            ],
+            "name": "execline",
+            "version": "2.9.8.1"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "jq",
+            "version": "1.8.2"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "oniguruma",
+            "version": "6.9.10"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "pkg",
+            "version": "2.8.4"
+          },
+          {
+            "licenses": [
+              "ISCL"
+            ],
+            "name": "s6",
+            "version": "2.14.0.1"
+          },
+          {
+            "licenses": [
+              "ISCL"
+            ],
+            "name": "skalibs",
+            "version": "2.14.5.1"
+          },
+          {
+            "licenses": [
+              "APACHE20"
+            ],
+            "name": "versitygw",
+            "version": "1.7.0_1"
+          }
+        ],
+        "go": [
+          {
+            "name": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
+            "purl": "",
+            "version": "v1.22.0"
+          },
+          {
+            "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+            "purl": "",
+            "version": "v1.14.0"
+          },
+          {
+            "name": "github.com/Azure/azure-sdk-for-go/sdk/internal",
+            "purl": "",
+            "version": "v1.12.0"
+          },
+          {
+            "name": "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob",
+            "purl": "",
+            "version": "v1.8.0"
+          },
+          {
+            "name": "github.com/Azure/go-ntlmssp",
+            "purl": "",
+            "version": "v0.1.1"
+          },
+          {
+            "name": "github.com/AzureAD/microsoft-authentication-library-for-go",
+            "purl": "",
+            "version": "v1.7.2"
+          },
+          {
+            "name": "github.com/DataDog/datadog-go/v5",
+            "purl": "",
+            "version": "v5.9.0"
+          },
+          {
+            "name": "github.com/andybalholm/brotli",
+            "purl": "",
+            "version": "v1.2.2"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2",
+            "purl": "",
+            "version": "v1.42.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream",
+            "purl": "",
+            "version": "v1.7.14"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/config",
+            "purl": "",
+            "version": "v1.32.30"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/credentials",
+            "purl": "",
+            "version": "v1.19.29"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "purl": "",
+            "version": "v1.18.30"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/feature/s3/transfermanager",
+            "purl": "",
+            "version": "v0.3.2"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "purl": "",
+            "version": "v1.4.30"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "purl": "",
+            "version": "v2.7.30"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "purl": "",
+            "version": "v1.4.31"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "purl": "",
+            "version": "v1.13.13"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/internal/checksum",
+            "purl": "",
+            "version": "v1.9.23"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "purl": "",
+            "version": "v1.13.30"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/internal/s3shared",
+            "purl": "",
+            "version": "v1.19.31"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/s3",
+            "purl": "",
+            "version": "v1.105.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/signin",
+            "purl": "",
+            "version": "v1.4.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/sso",
+            "purl": "",
+            "version": "v1.32.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "purl": "",
+            "version": "v1.37.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/sts",
+            "purl": "",
+            "version": "v1.44.1"
+          },
+          {
+            "name": "github.com/aws/smithy-go",
+            "purl": "",
+            "version": "v1.27.3"
+          },
+          {
+            "name": "github.com/cespare/xxhash/v2",
+            "purl": "",
+            "version": "v2.3.0"
+          },
+          {
+            "name": "github.com/cpuguy83/go-md2man/v2",
+            "purl": "",
+            "version": "v2.0.7"
+          },
+          {
+            "name": "github.com/davecgh/go-spew",
+            "purl": "",
+            "version": "v1.1.1"
+          },
+          {
+            "name": "github.com/go-asn1-ber/asn1-ber",
+            "purl": "",
+            "version": "v1.5.8-0.20250403174932-29230038a667"
+          },
+          {
+            "name": "github.com/go-ldap/ldap/v3",
+            "purl": "",
+            "version": "v3.4.13"
+          },
+          {
+            "name": "github.com/gofiber/fiber/v3",
+            "purl": "",
+            "version": "v3.4.0"
+          },
+          {
+            "name": "github.com/gofiber/schema",
+            "purl": "",
+            "version": "v1.8.2"
+          },
+          {
+            "name": "github.com/gofiber/utils/v2",
+            "purl": "",
+            "version": "v2.1.2"
+          },
+          {
+            "name": "github.com/golang-jwt/jwt/v5",
+            "purl": "",
+            "version": "v5.3.1"
+          },
+          {
+            "name": "github.com/google/uuid",
+            "purl": "",
+            "version": "v1.6.0"
+          },
+          {
+            "name": "github.com/hashicorp/go-cleanhttp",
+            "purl": "",
+            "version": "v0.5.2"
+          },
+          {
+            "name": "github.com/hashicorp/go-retryablehttp",
+            "purl": "",
+            "version": "v0.7.8"
+          },
+          {
+            "name": "github.com/hashicorp/go-rootcerts",
+            "purl": "",
+            "version": "v1.0.2"
+          },
+          {
+            "name": "github.com/hashicorp/go-secure-stdlib/strutil",
+            "purl": "",
+            "version": "v0.1.2"
+          },
+          {
+            "name": "github.com/hashicorp/vault-client-go",
+            "purl": "",
+            "version": "v0.4.3"
+          },
+          {
+            "name": "github.com/klauspost/compress",
+            "purl": "",
+            "version": "v1.19.0"
+          },
+          {
+            "name": "github.com/kylelemons/godebug",
+            "purl": "",
+            "version": "v1.1.0"
+          },
+          {
+            "name": "github.com/mattn/go-colorable",
+            "purl": "",
+            "version": "v0.1.15"
+          },
+          {
+            "name": "github.com/mattn/go-isatty",
+            "purl": "",
+            "version": "v0.0.22"
+          },
+          {
+            "name": "github.com/nats-io/nats.go",
+            "purl": "",
+            "version": "v1.52.0"
+          },
+          {
+            "name": "github.com/nats-io/nkeys",
+            "purl": "",
+            "version": "v0.4.16"
+          },
+          {
+            "name": "github.com/nats-io/nuid",
+            "purl": "",
+            "version": "v1.0.1"
+          },
+          {
+            "name": "github.com/oklog/ulid/v2",
+            "purl": "",
+            "version": "v2.1.1"
+          },
+          {
+            "name": "github.com/philhofer/fwd",
+            "purl": "",
+            "version": "v1.2.0"
+          },
+          {
+            "name": "github.com/pierrec/lz4/v4",
+            "purl": "",
+            "version": "v4.1.27"
+          },
+          {
+            "name": "github.com/pkg/browser",
+            "purl": "",
+            "version": "v0.0.0-20240102092130-5ac0b6a4141c"
+          },
+          {
+            "name": "github.com/pkg/xattr",
+            "purl": "",
+            "version": "v0.4.12"
+          },
+          {
+            "name": "github.com/rabbitmq/amqp091-go",
+            "purl": "",
+            "version": "v1.12.0"
+          },
+          {
+            "name": "github.com/russross/blackfriday/v2",
+            "purl": "",
+            "version": "v2.1.0"
+          },
+          {
+            "name": "github.com/ryanuber/go-glob",
+            "purl": "",
+            "version": "v1.0.0"
+          },
+          {
+            "name": "github.com/segmentio/kafka-go",
+            "purl": "",
+            "version": "v0.4.51"
+          },
+          {
+            "name": "github.com/smira/go-statsd",
+            "purl": "",
+            "version": "v1.3.4"
+          },
+          {
+            "name": "github.com/tinylib/msgp",
+            "purl": "",
+            "version": "v1.6.4"
+          },
+          {
+            "name": "github.com/urfave/cli/v2",
+            "purl": "",
+            "version": "v2.27.7"
+          },
+          {
+            "name": "github.com/valyala/bytebufferpool",
+            "purl": "",
+            "version": "v1.0.0"
+          },
+          {
+            "name": "github.com/valyala/fasthttp",
+            "purl": "",
+            "version": "v1.72.0"
+          },
+          {
+            "name": "github.com/versity/versitygw",
+            "purl": "",
+            "version": ""
+          },
+          {
+            "name": "github.com/xrash/smetrics",
+            "purl": "",
+            "version": "v0.0.0-20250705151800-55b8f293f342"
+          },
+          {
+            "name": "github.com/zeebo/xxh3",
+            "purl": "",
+            "version": "v1.1.0"
+          },
+          {
+            "name": "golang.org/x/crypto",
+            "purl": "",
+            "version": "v0.54.0"
+          },
+          {
+            "name": "golang.org/x/net",
+            "purl": "",
+            "version": "v0.57.0"
+          },
+          {
+            "name": "golang.org/x/sync",
+            "purl": "",
+            "version": "v0.22.0"
+          },
+          {
+            "name": "golang.org/x/sys",
+            "purl": "",
+            "version": "v0.47.0"
+          },
+          {
+            "name": "golang.org/x/text",
+            "purl": "",
+            "version": "v0.40.0"
+          },
+          {
+            "name": "golang.org/x/time",
+            "purl": "",
+            "version": "v0.15.0"
+          },
+          {
+            "name": "stdlib",
+            "purl": "",
+            "version": "v1.26.8"
+          }
+        ],
+        "java": [],
+        "node": [],
+        "php": [],
+        "python": [],
+        "ruby": [],
+        "rust": []
+      },
+      "source": "upstream",
+      "summary": {
+        "dotnet": 0,
+        "freebsd": 42,
+        "go": 73,
+        "java": 0,
+        "node": 0,
+        "php": 0,
+        "python": 0,
+        "ruby": 0,
+        "rust": 0,
+        "total": 115
+      }
+    },
+    "pkg-latest-aarch64": {
+      "app_version": "1.8.0_1",
+      "arch": "aarch64",
+      "generated": "2026-10-14T20:13:10Z",
+      "packages": {
+        "dotnet": [],
+        "freebsd": [
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-audit-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-blocklist",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-bzip2-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-certctl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-clibs",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "CDDL-1.0"
+            ],
+            "name": "FreeBSD-ctf-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD-3-Clause"
+            ],
+            "name": "FreeBSD-dhclient",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-fetch",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-kerberos-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libarchive",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libbsdstat",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libcasper",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libexecinfo",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libldns",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libmagic",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-libucl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-locales",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-mtree",
+            "version": "15.1p2"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-ncurses-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-openssl",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-openssl-lib",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pam-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-pkg-bootstrap",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-rc",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-resolvconf",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-runtime",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-tcpd",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-ufs-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-utilities",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-xz-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "CDDL-1.0"
+            ],
+            "name": "FreeBSD-zfs-lib",
+            "version": "15.1p1"
+          },
+          {
+            "licenses": [
+              "Zlib"
+            ],
+            "name": "FreeBSD-zlib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "PD"
+            ],
+            "name": "FreeBSD-zoneinfo",
+            "version": "15.1p4"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "FreeBSD-zstd-lib",
+            "version": "15.1"
+          },
+          {
+            "licenses": [
+              "MPL20"
+            ],
+            "name": "ca_root_nss",
+            "version": "3.130"
+          },
+          {
+            "licenses": [
+              "ISCL"
+            ],
+            "name": "execline",
+            "version": "2.9.8.1"
+          },
+          {
+            "licenses": [
+              "MIT"
+            ],
+            "name": "jq",
+            "version": "1.8.2"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "oniguruma",
+            "version": "6.9.10"
+          },
+          {
+            "licenses": [
+              "BSD2CLAUSE"
+            ],
+            "name": "pkg",
+            "version": "2.8.4"
+          },
+          {
+            "licenses": [
+              "ISCL"
+            ],
+            "name": "s6",
+            "version": "2.14.0.1"
+          },
+          {
+            "licenses": [
+              "ISCL"
+            ],
+            "name": "skalibs",
+            "version": "2.14.5.1"
+          },
+          {
+            "licenses": [
+              "APACHE20"
+            ],
+            "name": "versitygw",
+            "version": "1.8.0_1"
+          }
+        ],
+        "go": [
+          {
+            "name": "github.com/Azure/azure-sdk-for-go/sdk/azcore",
+            "purl": "",
+            "version": "v1.23.1"
+          },
+          {
+            "name": "github.com/Azure/azure-sdk-for-go/sdk/azidentity",
+            "purl": "",
+            "version": "v1.14.1"
+          },
+          {
+            "name": "github.com/Azure/azure-sdk-for-go/sdk/internal",
+            "purl": "",
+            "version": "v1.12.0"
+          },
+          {
+            "name": "github.com/Azure/azure-sdk-for-go/sdk/storage/azblob",
+            "purl": "",
+            "version": "v1.8.0"
+          },
+          {
+            "name": "github.com/Azure/go-ntlmssp",
+            "purl": "",
+            "version": "v0.1.1"
+          },
+          {
+            "name": "github.com/AzureAD/microsoft-authentication-library-for-go",
+            "purl": "",
+            "version": "v1.9.0"
+          },
+          {
+            "name": "github.com/DataDog/datadog-go/v5",
+            "purl": "",
+            "version": "v5.9.1"
+          },
+          {
+            "name": "github.com/andybalholm/brotli",
+            "purl": "",
+            "version": "v1.2.3"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2",
+            "purl": "",
+            "version": "v1.45.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/aws/protocol/eventstream",
+            "purl": "",
+            "version": "v1.7.20"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/config",
+            "purl": "",
+            "version": "v1.33.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/credentials",
+            "purl": "",
+            "version": "v1.20.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/feature/ec2/imds",
+            "purl": "",
+            "version": "v1.19.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/feature/s3/transfermanager",
+            "purl": "",
+            "version": "v0.4.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/internal/configsources",
+            "purl": "",
+            "version": "v1.5.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/internal/endpoints/v2",
+            "purl": "",
+            "version": "v2.8.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/internal/v4a",
+            "purl": "",
+            "version": "v1.5.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/iam",
+            "purl": "",
+            "version": "v1.61.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/internal/accept-encoding",
+            "purl": "",
+            "version": "v1.13.19"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/internal/checksum",
+            "purl": "",
+            "version": "v1.11.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/internal/presigned-url",
+            "purl": "",
+            "version": "v1.14.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/internal/s3shared",
+            "purl": "",
+            "version": "v1.20.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/s3",
+            "purl": "",
+            "version": "v1.109.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/signin",
+            "purl": "",
+            "version": "v1.7.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/sso",
+            "purl": "",
+            "version": "v1.35.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/ssooidc",
+            "purl": "",
+            "version": "v1.40.1"
+          },
+          {
+            "name": "github.com/aws/aws-sdk-go-v2/service/sts",
+            "purl": "",
+            "version": "v1.47.1"
+          },
+          {
+            "name": "github.com/aws/smithy-go",
+            "purl": "",
+            "version": "v1.28.1"
+          },
+          {
+            "name": "github.com/cespare/xxhash/v2",
+            "purl": "",
+            "version": "v2.3.0"
+          },
+          {
+            "name": "github.com/cpuguy83/go-md2man/v2",
+            "purl": "",
+            "version": "v2.0.7"
+          },
+          {
+            "name": "github.com/davecgh/go-spew",
+            "purl": "",
+            "version": "v1.1.1"
+          },
+          {
+            "name": "github.com/go-asn1-ber/asn1-ber",
+            "purl": "",
+            "version": "v1.5.8"
+          },
+          {
+            "name": "github.com/go-ldap/ldap/v3",
+            "purl": "",
+            "version": "v3.4.14"
+          },
+          {
+            "name": "github.com/gofiber/fiber/v3",
+            "purl": "",
+            "version": "v3.5.0"
+          },
+          {
+            "name": "github.com/gofiber/schema",
+            "purl": "",
+            "version": "v1.8.4"
+          },
+          {
+            "name": "github.com/gofiber/utils/v2",
+            "purl": "",
+            "version": "v2.4.2"
+          },
+          {
+            "name": "github.com/golang-jwt/jwt/v5",
+            "purl": "",
+            "version": "v5.3.1"
+          },
+          {
+            "name": "github.com/google/uuid",
+            "purl": "",
+            "version": "v1.6.0"
+          },
+          {
+            "name": "github.com/hashicorp/go-cleanhttp",
+            "purl": "",
+            "version": "v0.5.2"
+          },
+          {
+            "name": "github.com/hashicorp/go-retryablehttp",
+            "purl": "",
+            "version": "v0.7.8"
+          },
+          {
+            "name": "github.com/hashicorp/go-rootcerts",
+            "purl": "",
+            "version": "v1.0.2"
+          },
+          {
+            "name": "github.com/hashicorp/go-secure-stdlib/strutil",
+            "purl": "",
+            "version": "v0.1.2"
+          },
+          {
+            "name": "github.com/hashicorp/vault-client-go",
+            "purl": "",
+            "version": "v0.4.3"
+          },
+          {
+            "name": "github.com/klauspost/compress",
+            "purl": "",
+            "version": "v1.19.2"
+          },
+          {
+            "name": "github.com/kylelemons/godebug",
+            "purl": "",
+            "version": "v1.1.0"
+          },
+          {
+            "name": "github.com/mattn/go-colorable",
+            "purl": "",
+            "version": "v0.1.15"
+          },
+          {
+            "name": "github.com/mattn/go-isatty",
+            "purl": "",
+            "version": "v0.0.24"
+          },
+          {
+            "name": "github.com/nats-io/nats.go",
+            "purl": "",
+            "version": "v1.53.1"
+          },
+          {
+            "name": "github.com/nats-io/nkeys",
+            "purl": "",
+            "version": "v0.4.16"
+          },
+          {
+            "name": "github.com/nats-io/nuid",
+            "purl": "",
+            "version": "v1.0.1"
+          },
+          {
+            "name": "github.com/oklog/ulid/v2",
+            "purl": "",
+            "version": "v2.1.2"
+          },
+          {
+            "name": "github.com/philhofer/fwd",
+            "purl": "",
+            "version": "v1.2.0"
+          },
+          {
+            "name": "github.com/pierrec/lz4/v4",
+            "purl": "",
+            "version": "v4.1.29"
+          },
+          {
+            "name": "github.com/pkg/browser",
+            "purl": "",
+            "version": "v0.0.0-20240102092130-5ac0b6a4141c"
+          },
+          {
+            "name": "github.com/pkg/xattr",
+            "purl": "",
+            "version": "v0.4.12"
+          },
+          {
+            "name": "github.com/rabbitmq/amqp091-go",
+            "purl": "",
+            "version": "v1.14.0"
+          },
+          {
+            "name": "github.com/russross/blackfriday/v2",
+            "purl": "",
+            "version": "v2.1.0"
+          },
+          {
+            "name": "github.com/ryanuber/go-glob",
+            "purl": "",
+            "version": "v1.0.0"
+          },
+          {
+            "name": "github.com/segmentio/kafka-go",
+            "purl": "",
+            "version": "v0.4.51"
+          },
+          {
+            "name": "github.com/smira/go-statsd",
+            "purl": "",
+            "version": "v1.3.4"
+          },
+          {
+            "name": "github.com/tinylib/msgp",
+            "purl": "",
+            "version": "v1.6.4"
+          },
+          {
+            "name": "github.com/urfave/cli/v2",
+            "purl": "",
+            "version": "v2.27.7"
+          },
+          {
+            "name": "github.com/valyala/bytebufferpool",
+            "purl": "",
+            "version": "v1.0.0"
+          },
+          {
+            "name": "github.com/valyala/fasthttp",
+            "purl": "",
+            "version": "v1.73.0"
+          },
+          {
+            "name": "github.com/versity/versitygw",
+            "purl": "",
+            "version": ""
+          },
+          {
+            "name": "github.com/xrash/smetrics",
+            "purl": "",
+            "version": "v0.0.0-20250705151800-55b8f293f342"
+          },
+          {
+            "name": "github.com/zeebo/xxh3",
+            "purl": "",
+            "version": "v1.1.0"
+          },
+          {
+            "name": "golang.org/x/crypto",
+            "purl": "",
+            "version": "v0.55.0"
+          },
+          {
+            "name": "golang.org/x/net",
+            "purl": "",
+            "version": "v0.58.0"
+          },
+          {
+            "name": "golang.org/x/sync",
+            "purl": "",
+            "version": "v0.22.0"
+          },
+          {
+            "name": "golang.org/x/sys",
+            "purl": "",
+            "version": "v0.47.0"
+          },
+          {
+            "name": "golang.org/x/text",
+            "purl": "",
+            "version": "v0.41.0"
+          },
+          {
+            "name": "golang.org/x/time",
+            "purl": "",
+            "version": "v0.15.0"
+          },
+          {
+            "name": "stdlib",
+            "purl": "",
+            "version": "v1.27.2"
+          }
+        ],
+        "java": [],
+        "node": [],
+        "php": [],
+        "python": [],
+        "ruby": [],
+        "rust": []
+      },
+      "source": "upstream",
+      "summary": {
+        "dotnet": 0,
+        "freebsd": 42,
+        "go": 74,
+        "java": 0,
+        "node": 0,
+        "php": 0,
+        "python": 0,
+        "ruby": 0,
+        "rust": 0,
+        "total": 116
+      }
+    }
+  }
+}
