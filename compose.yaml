@@ -5,7 +5,7 @@ x-daemonless:
   icon: ":material-apps:"  # https://pictogrammers.com/library/mdi/ (material-) or https://simpleicons.org/ (simple-)
   category: "Utilities"
   description: "Versitygw on FreeBSD."
-  upstream_url: "https://github.com/daemonless/versitygw"
+  upstream_url: "https://github.com/versity/versitygw"
   web_url: "https://versitygw.com/"
   freshports_url: "https://www.freshports.org/net-p2p/versitygw/"
   user: "bsd"

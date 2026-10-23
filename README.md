@@ -15,7 +15,7 @@ Versitygw on FreeBSD.
 |---|---|
 | **Port** | 7070 |
 | **Registry** | `ghcr.io/daemonless/versitygw` |
-| **Source** | [https://github.com/daemonless/versitygw](https://github.com/daemonless/versitygw) |
+| **Source** | [https://github.com/versity/versitygw](https://github.com/versity/versitygw) |
 | **Website** | [https://versitygw.com/](https://versitygw.com/) |
 
 ## Version Tags

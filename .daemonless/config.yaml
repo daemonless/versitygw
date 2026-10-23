@@ -21,6 +21,6 @@ build:
 
 cit:
   mode: screenshot
-  port: 7070
+  port: 7071
   health: /
   

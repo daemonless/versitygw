@@ -5,7 +5,7 @@
 # --------------------------------------------------------------------------
 
 ARG BASE_VERSION=15.1
-FROM ghcr.io/daemonless/base:${BASE_VERSION}
+FROM ghcr.io/daemonless/base-exec:${BASE_VERSION}
 
 ARG FREEBSD_ARCH=amd64
 ARG PKG_NAME="versitygw"
@@ -32,10 +32,15 @@ RUN pkg update && \
 
 # Copy root filesystem
 COPY root/ /
+RUN chmod +x /daemonless/libexec/versitygw
+
+CMD ["/daemonless/libexec/versitygw"]
 
 # Set permissions
-RUN chmod +x /etc/services.d/versitygw/run /healthz && \
-    mkdir -p /app && pkg query '%v' ${PKG_NAME} > /app/version && chmod -R a+rX /app
+RUN chmod +x /healthz && \
+    mkdir -p /app && \
+    pkg query '%v' ${PKG_NAME} > /app/version && \
+    chmod -R a+rX /app
 
 ENV ROOT_ACCESS_KEY_ID="access" \
     ROOT_SECRET_ACCESS_KEY="secret"
