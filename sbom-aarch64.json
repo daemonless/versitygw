@@ -1,11 +1,11 @@
 {
-  "generated": "2026-10-23T19:15:17Z",
+  "generated": "2026-10-23T22:49:44Z",
   "image": "versitygw",
   "tags": {
     "pkg-aarch64": {
       "app_version": "1.7.0_2",
       "arch": "aarch64",
-      "generated": "2026-10-23T19:13:56Z",
+      "generated": "2026-10-23T22:48:40Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -674,7 +674,7 @@
     "pkg-latest-aarch64": {
       "app_version": "1.8.0_1",
       "arch": "aarch64",
-      "generated": "2026-10-23T19:14:00Z",
+      "generated": "2026-10-23T22:48:45Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
