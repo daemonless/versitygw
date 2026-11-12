@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-04T15:09:44Z",
+  "generated": "2026-11-12T22:55:57Z",
   "image": "versitygw",
   "tags": {
     "pkg-amd64": {
       "app_version": "1.7.0_3",
       "arch": "amd64",
-      "generated": "2026-11-04T15:09:02Z",
+      "generated": "2026-11-12T22:54:23Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -679,7 +679,7 @@
     "pkg-latest-amd64": {
       "app_version": "1.10.0",
       "arch": "amd64",
-      "generated": "2026-11-04T15:08:41Z",
+      "generated": "2026-11-12T22:54:54Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -947,7 +947,7 @@
               "BSD2CLAUSE"
             ],
             "name": "pkg",
-            "version": "2.8.4"
+            "version": "2.9.0"
           },
           {
             "licenses": [
