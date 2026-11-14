@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-12T22:55:57Z",
+  "generated": "2026-11-14T22:40:53Z",
   "image": "versitygw",
   "tags": {
     "pkg-amd64": {
       "app_version": "1.7.0_3",
       "arch": "amd64",
-      "generated": "2026-11-12T22:54:23Z",
+      "generated": "2026-11-14T22:40:10Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -677,9 +677,9 @@
       }
     },
     "pkg-latest-amd64": {
-      "app_version": "1.10.0",
+      "app_version": "1.10.0_1",
       "arch": "amd64",
-      "generated": "2026-11-12T22:54:54Z",
+      "generated": "2026-11-14T22:40:13Z",
       "packages": {
         "dotnet": [],
         "freebsd": [
@@ -954,7 +954,7 @@
               "APACHE20"
             ],
             "name": "versitygw",
-            "version": "1.10.0"
+            "version": "1.10.0_1"
           }
         ],
         "go": [
@@ -1356,7 +1356,7 @@
           {
             "name": "stdlib",
             "purl": "",
-            "version": "v1.27.3"
+            "version": "v1.27.4"
           }
         ],
         "java": [],
